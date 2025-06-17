@@ -1,0 +1,5 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+128.905,-117.602,180.0,top,Bet 2032,,,BatteryHolder_Keystone_1058_1x2032,Battery_Cell,smt
+88.265,-116.327,-90.0,top,D1,,,LED_D5.0mm,LED,tht
+99.685672,-113.792,-90.0,top,R1,,,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,R,tht
+104.065,-115.352,0.0,top,SW1,,,SW_TH_Tactile_Omron_B3F-10xx,SW_DPDT_x2,tht

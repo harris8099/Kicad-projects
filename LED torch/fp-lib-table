@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Harshil sample library")(type "KiCad")(uri "C:/Users/harri/OneDrive/Documents/pcb design/Project Libraries/Harshil sample library.pretty")(options "")(descr ""))
+)

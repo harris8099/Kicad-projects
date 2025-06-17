@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Pins
+Bet 2032,1,Battery_Cell,BatteryHolder_Keystone_1058_1x2032,,,,smt,Single-cell battery,
+D1,1,LED,LED_D5.0mm,,,,tht,Light emitting diode,1=K 2=A
+R1,1,R,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,,,,tht,Resistor,
+SW1,1,SW_DPDT_x2,SW_TH_Tactile_Omron_B3F-10xx,,,,tht,"Single Pole Single Throw (SPST) switch, separate symbol",

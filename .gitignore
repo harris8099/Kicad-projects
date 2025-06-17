@@ -1,0 +1,9 @@
+*.xml
+*.dsn
+.DS_Store
+fp-info-cache
+*Gerber/*
+*backups/*
+MCU Datalogger-backups/*
+2layer_MCUdataloggerGerber/*
+
