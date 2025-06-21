@@ -1892,45 +1892,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "DRV8833 motor driver\n"
+	(text "PCF8574 8bit expander"
 		(exclude_from_sim no)
-		(at 31.75 22.86 0)
-		(size 236.5375 63.5)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
+		(at 142.24 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
-		(uuid "70798934-e3e8-4349-a9ff-9eaa8a18f9ca")
+		(uuid "3a9c0739-0491-4bac-9121-ee474c5d598d")
 	)
-	(text_box "PCF8574 8bit expander"
+	(text "DRV8833 motor driver\n"
 		(exclude_from_sim no)
-		(at 98.1075 89.2175 0)
-		(size 66.04 63.5)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
+		(at 45.72 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
-		(uuid "80e13edd-bf90-4c29-b209-1e3447cdd95b")
+		(uuid "b1f4c100-a8b6-4976-bc95-7eb61d14a8a4")
 	)
 	(junction
 		(at 109.22 115.57)
@@ -2320,7 +2300,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 116.84 115.57)
+			(xy 116.84 97.79) (xy 116.84 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2420,7 +2400,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 119.38 107.95)
+			(xy 119.38 101.6) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2542,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 116.84 95.25 90)
+		(at 116.84 97.79 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2573,7 +2553,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 119.38 100.33 90)
+		(at 119.38 101.6 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,6 +2638,36 @@
 			(justify right)
 		)
 		(uuid "f13cd9b2-e72b-4f65-9147-1989748a69e0")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 33.02 19.05) (xy 260.35 19.05) (xy 261.9375 19.05) (xy 261.62 85.09) (xy 33.02 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 52ad34d6-7f7e-4a29-b0bb-9bd90613f027)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 102.87 91.44) (xy 153.67 91.44) (xy 153.67 152.4) (xy 152.4 152.4) (xy 102.87 152.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a1841181-71f2-4d26-86e1-ddb492b603ce)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
