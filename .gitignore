@@ -6,4 +6,5 @@ fp-info-cache
 *backups/*
 MCU Datalogger-backups/*
 2layer_MCUdataloggerGerber/*
+pcbway_production/*
 
