@@ -1,0 +1,14 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,MF,MAXIMUM_PACKAGE_HEIGHT,Price,Check_prices,STANDARD,PARTREV,SnapEDA_Link,MP,Description_1,Availability,MANUFACTURER
+"C1, C2",2,10uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,smt,Unpolarized capacitor,,,,,,,,,,,
+"C3, C4",2,0.1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,smt,[C3]Unpolarized capacitor; [C4]C_BOOT,,,,,,,,,,,
+C5,1,22pF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,,,,smt,C_FF,,,,,,,,,,,
+C6,1,100uF,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,,,,smt,C_OUT,,,,,,,,,,,
+"J1, J2",2,Conn_01x02_Socket,PinHeader_1x02_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x02, script generated",,,,,,,,,,,
+L1,1,6.8uH,L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC,,,,tht,Inductor,,,,,,,,,,,
+R1,1,82K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,R_ENT,,,,,,,,,,,
+R2,1,21.5K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,R_ENB,,,,,,,,,,,
+R3,1,25.5K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,R_T,,,,,,,,,,,
+R4,1,282K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,R_FBT,,,,,,,,,,,
+R5,1,33.2K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,R_FBB,,,,,,,,,,,
+R6,1,1K,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,R_FF,,,,,,,,,,,
+U1,1,LMR51450SDRRR,CONV_LMR51450SDRRR,WSON-12 Texas Instruments,,,smt,,Texas Instruments,0.80 mm,None,https://www.snapeda.com/parts/LMR51450SDRRR/Texas+Instruments/view-part/?ref=eda,Manufacturer Recommendations,December 2022,https://www.snapeda.com/parts/LMR51450SDRRR/Texas+Instruments/view-part/?ref=snap,LMR51450SDRRR,"36-V, 5-A synchronous buck converter",In Stock,Texas Instruments

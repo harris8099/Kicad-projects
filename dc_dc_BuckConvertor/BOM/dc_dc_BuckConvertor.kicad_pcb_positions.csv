@@ -1,0 +1,17 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+120.8,-71.7,-90.0,top,C1,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,10uF,smt
+123.1,-71.6625,-90.0,top,C2,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,10uF,smt
+125.45,-71.7125,-90.0,top,C3,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,0.1uF,smt
+133.85,-73.75,180.0,top,C4,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,0.1uF,smt
+142.85,-71.8,180.0,top,C5,,,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,22pF,smt
+143.45,-65.35,-90.0,top,C6,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,100uF,smt
+121.575,-64.55,0.0,top,J1,,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02_Socket,tht
+147.375,-64.45,0.0,top,J2,,,PinHeader_1x02_P2.54mm_Vertical,Conn_01x02_Socket,tht
+127.0,-65.1,0.0,top,L1,,,L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC,6.8uH,tht
+129.1,-70.1,180.0,top,R1,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,82K,smt
+129.15,-72.4,0.0,top,R2,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,21.5K,smt
+138.7,-73.85,0.0,top,R3,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,25.5K,smt
+138.65,-69.55,180.0,top,R4,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,282K,smt
+138.65,-71.75,0.0,top,R5,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,33.2K,smt
+142.9,-69.55,0.0,top,R6,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1K,smt
+133.95,-70.2625,90.0,top,U1,,WSON-12 Texas Instruments,CONV_LMR51450SDRRR,LMR51450SDRRR,smt
