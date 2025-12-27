@@ -1611,12 +1611,6 @@
 		(uuid "2b7bda33-491a-46e3-af32-6e07103b7803")
 	)
 	(junction
-		(at 186.69 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32f417c6-1e02-43bc-8c85-1e48e869e3df")
-	)
-	(junction
 		(at 148.59 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1663,6 +1657,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6408ede7-b7dd-43dd-9ec4-6c1495f83876")
+	)
+	(junction
+		(at 186.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b6c386a-7ea9-4720-844b-ea8c74d9a28e")
 	)
 	(junction
 		(at 107.95 55.88)
@@ -1738,6 +1738,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 31.75) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135aab5e-43e9-463c-9af3-519037ad3a3a")
+	)
+	(wire
+		(pts
 			(xy 58.42 38.1) (xy 67.31 38.1)
 		)
 		(stroke
@@ -1755,16 +1765,6 @@
 			(type default)
 		)
 		(uuid "1aaebfd8-43dc-492d-b905-9f6d9be89111")
-	)
-	(wire
-		(pts
-			(xy 186.69 35.56) (xy 186.69 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce9dd22-8b28-4235-b3bd-76dfc4b6ef1a")
 	)
 	(wire
 		(pts
@@ -1918,13 +1918,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 38.1) (xy 190.5 38.1)
+			(xy 198.12 31.75) (xy 186.69 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "677b0e59-97e8-4718-9dd9-7285e2b3f251")
+		(uuid "6936134b-0d11-4ed9-a4b9-f2dc84c9a086")
 	)
 	(wire
 		(pts
@@ -2108,6 +2108,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf14d76b-40ff-4b61-be37-fb60d42c599d")
+	)
+	(wire
+		(pts
 			(xy 118.11 43.18) (xy 107.95 43.18)
 		)
 		(stroke
@@ -2216,15 +2226,27 @@
 		)
 		(uuid "fe67d597-018b-4c7e-8a23-346da9d06fe5")
 	)
-	(label "VBAT"
-		(at 186.69 35.56 0)
+	(global_label "VBAT"
+		(shape input)
+		(at 198.12 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "3206f01d-14cf-4bc1-873e-e31e201f549b")
+		(uuid "fd87c03c-5bd0-4e77-b989-f201deb3341d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3895,8 +3917,8 @@
 		)
 	)
 	(sheet
-		(at 205.74 82.55)
-		(size 50.8 54.61)
+		(at 205.74 83.82)
+		(size 50.8 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3911,7 +3933,7 @@
 		)
 		(uuid "510bcb23-9911-4534-81ba-2e8e312ed31a")
 		(property "Sheetname" "Modem"
-			(at 205.74 81.8384 0)
+			(at 205.74 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3942,7 @@
 			)
 		)
 		(property "Sheetfile" "modem.kicad_sch"
-			(at 205.74 137.7446 0)
+			(at 205.74 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

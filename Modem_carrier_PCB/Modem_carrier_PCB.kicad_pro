@@ -228,10 +228,10 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_driven": "warning",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
-      "same_local_global_label": "warning",
+      "power_pin_not_driven": "warning",
+      "same_local_global_label": "error",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -396,6 +396,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "LTE module",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -416,6 +424,10 @@
     [
       "510bcb23-9911-4534-81ba-2e8e312ed31a",
       "Modem"
+    ],
+    [
+      "4bda3a77-d5de-40c5-bff3-bcf3e1f6142d",
+      "Sim card connections"
     ]
   ],
   "text_variables": {}
