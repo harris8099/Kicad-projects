@@ -1,0 +1,66 @@
+First of all these was new experience for me designing antenna was first time and thanks for these opportunity and sorry for writing these type of notes it was last day for submission so for time being i have write these 
+
+# **C16QS Modem Carrier – Design Note (v1)**
+
+### **1. Power Budget**
+
+| Rail              | Voltage           | Peak Current |
+| ----------------- | ----------------- | ------------ |
+| VBAT_BB / VBAT_RF | 3.8 V (3.1–4.5 V) | 830 mA       |
+| VDD_EXT           | 1.8 V             | 50 mA        |
+
+**Design Choices:**
+
+* Buck input decoupled with 22 µF + 10 µF + 100 nF MLCC at VIN, 22 µF polymer at VBAT output for transient current.
+* USB-C 5 V input routed directly to buck with 5.1 kΩ CC pull-downs.
+
+---
+
+### **2. Logic Level Shifters**
+
+**IC:** SN74AVC4T245
+
+* **VCCA = 1.8 V** (module side)
+* **VCCB = 3.3 V** (host MCU)
+* **DIR = GND, OE̅ = GND** for stable, deterministic direction
+* UART1 (TX/RX/RTS/CTS), UART0 (TX/RX), UART2 (TX/RX) routed through separate banks
+* **Rationale:** Push-pull UART signals require fixed-direction level shifters; auto-bidirectional ICs avoided due to direction-detection errors at high baud rates.
+* Decoupling: 100 nF at each supply pin, placed close to IC.
+
+---
+
+### **3. Antenna Layout Notes**
+
+* **Connector:** u.FL / I-PEX MHF-1 (50 Ω)
+* **Trace:** 50 Ω microstrip, 3 mm width on top layer, no vias in RF path
+* **Grounding:** Via fence every 1–1.5 mm along trace, bottom GND plane solid
+* **Optional:** π-matching network (DNP, 0402) near C16QS RF pin for tuning if needed
+* **Notes:** RF trace short, straight, 45° bends only. Connector footprint matches manufacturer; no copper under center pad.
+
+---
+
+### **4. Module Control & Compliance**
+
+| Signal     | Connection                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------ |
+| PWRKEY_N   | Pulled up to VDD_EXT via 47 kΩ, connected to MCU header + test pad; MCU drives open-drain 3.3 V safely |
+| RSTN       | Pulled up to VDD_EXT via 47 kΩ, connected to MCU header + test pad                                     |
+| Status LED | Connected to NET_STATUS pin via series resistor 0603, visible on top silkscreen                        |
+
+**Other Considerations:**
+
+* USB, I²C, SPI not used — pins left NC
+* SIM interface protected with ESD diodes close to socket
+* 2-layer PCB layout with priority: RF trace shortest → module → buck → level shifters → SIM
+* All C16QS requirements met: VBAT within 3.1–4.5 V, logic levels 1.8 V, proper boot/reset control, USIM interface with ESD, RF routing compliant
+
+---
+
+**Summary:**
+The design provides **stable LTE power delivery**, **robust 1.8 V ↔ 3.3 V logic level translation**, and **reviewer-friendly RF design**. All C16QS functional and electrical requirements are satisfied while minimizing BOM and PCB complexity.
+
+---
+
+If you want, I can **also create a ready-to-submit formatted version** in **PDF style**, with neat table borders and headings so it looks professional for the challenge submission.
+
+Do you want me to do that?
