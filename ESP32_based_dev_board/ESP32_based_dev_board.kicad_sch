@@ -2571,6 +2571,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_Device_AKL:Ferrite_Bead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Ferrite_Bead"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ferrite bead emc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ferrite_Bead_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Ferrite_Bead_1_1"
+				(rectangle
+					(start -2.54 -0.508)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SS-52400-002:SS-52400-002"
 			(pin_names
 				(offset 1.016)
@@ -4126,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 26.67) (xy 248.92 26.67)
+			(xy 248.92 26.67) (xy 252.73 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4223,16 +4370,6 @@
 			(type default)
 		)
 		(uuid "317af126-0955-4e30-ba9e-1a987419f494")
-	)
-	(wire
-		(pts
-			(xy 250.19 22.86) (xy 250.19 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ec1f8d-7320-4ac4-a7b8-ad312ae3aa4c")
 	)
 	(wire
 		(pts
@@ -4416,6 +4553,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 26.67) (xy 266.7 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72aeaecd-e149-423b-9be7-e95787ae6669")
+	)
+	(wire
+		(pts
 			(xy 218.44 124.46) (xy 218.44 121.92)
 		)
 		(stroke
@@ -4463,6 +4610,16 @@
 			(type default)
 		)
 		(uuid "80cb0d88-a407-4416-bb13-04ebb3bea086")
+	)
+	(wire
+		(pts
+			(xy 260.35 26.67) (xy 266.7 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828a7453-c0b7-4f5f-aa34-f5b8f92273db")
 	)
 	(wire
 		(pts
@@ -8026,7 +8183,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 250.19 22.86 0)
+		(at 266.7 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8035,7 +8192,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4e28b10-3ec7-456b-996b-6341ed1a60c7")
 		(property "Reference" "#PWR020"
-			(at 250.19 26.67 0)
+			(at 266.7 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +8201,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 250.19 17.78 0)
+			(at 266.7 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +8209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 22.86 0)
+			(at 266.7 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +8218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 22.86 0)
+			(at 266.7 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8227,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 250.19 22.86 0)
+			(at 266.7 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,6 +8309,73 @@
 			(project "ESP32_based_dev_board"
 				(path "/5293f698-2317-4ac2-8b7a-334d10b8a673"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Device_AKL:Ferrite_Bead")
+		(at 256.54 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c908e097-be76-4c73-88a3-650fa92a1de9")
+		(property "Reference" "FB1"
+			(at 256.54 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_Bead"
+			(at 256.54 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP32_Proj_Footprints:BEADC2012X105N"
+			(at 256.54 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, Alternate KiCAD Library"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b242cc6c-5855-4f83-b7c5-c9d4afbbcef0")
+		)
+		(pin "1"
+			(uuid "365fbb52-3c46-405c-808e-3d5f0a98df43")
+		)
+		(instances
+			(project ""
+				(path "/5293f698-2317-4ac2-8b7a-334d10b8a673"
+					(reference "FB1")
 					(unit 1)
 				)
 			)

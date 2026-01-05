@@ -4917,7 +4917,7 @@
 		(uuid "070b9d2a-96a2-4112-b060-d2db268ef7dd")
 	)
 	(label "CS_SD"
-		(at 194.31 44.45 180)
+		(at 194.31 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4967,7 +4967,7 @@
 		(uuid "1579ed4d-cf1f-4e52-a8b1-135b066aff34")
 	)
 	(label "MIC_OUT"
-		(at 194.31 57.15 180)
+		(at 194.31 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
